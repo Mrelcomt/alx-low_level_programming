@@ -1,3 +1,4 @@
+#!/bin/bash
 #include <stid.h>
 /**
  * main - print a line of code using puts
