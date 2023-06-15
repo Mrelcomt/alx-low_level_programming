@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * the code print one line using print f
+/**
+ * main - print one line using print f
  *
- * on main function
+ * Rwturn: Always 0
  * 
  */
 int main(void)
