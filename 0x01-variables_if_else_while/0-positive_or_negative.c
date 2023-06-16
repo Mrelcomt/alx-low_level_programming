@@ -3,7 +3,9 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* main - the code is used to compair the num is positive negative or zero 
+/**
+ * main - the code is used to compair
+ * the num is positive negative or zero 
  *
  *Return: always 0 (Success)
  *
