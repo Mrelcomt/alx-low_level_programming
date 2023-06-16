@@ -3,7 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* the code is used to compair the num is positive negative or zero */
+/* main - the code is used to compair the num is positive negative or zero 
+ *
+ *Return: always 0 (Success)
+ *
+ */
 int main(void)
 {
 	int n;
