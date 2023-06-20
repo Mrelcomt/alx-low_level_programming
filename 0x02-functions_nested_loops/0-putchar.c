@@ -5,9 +5,14 @@
  *
  * Return: 0 (Success)
  */
-char main(void)
+int main(void)
 {
-	char c[] = "_putchar";
-	_putchar(c);
+	char *c = "_putchar";
+	while(*c != '\0')
+	{
+	_putchar(*c);
+	c++;
+	}
+	_putchar('\n');
 return (0);
 }
