@@ -1,12 +1,13 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print _putchar
  *
  * Return: 0 (Success)
  */
-int main(void)
+char main(void)
 {
-	printf("_putchar");
+	char c[] = "_putchar";
+	_putchar(c);
 return (0);
 }
