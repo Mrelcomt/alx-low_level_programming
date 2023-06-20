@@ -19,15 +19,3 @@ void print_alphabet_x10(void)
 		c++;
 	}
 }
-int main(void)
-{
-	int a = 0;
-
-	while (a < 9)
-	{
-		print_alphabet_x10();
-		putchar ('\n');
-		a++;
-	}
-return (0);
-}
