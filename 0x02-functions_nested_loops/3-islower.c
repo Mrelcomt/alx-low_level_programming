@@ -1,14 +1,9 @@
 #include <stdio.h>
 
 /**
- *
- * main - call function _islower
- *
- * _islower - check where it is lower or not
- *
- * Return: always 0.
- *
- *
+ * _islower - checks for lowercase character
+ *@c: the character to be check
+ * Return: 1 if c is lowercase, 0 otherwise
  */
 int _islower(int c)
 {
@@ -23,18 +18,4 @@ int _islower(int c)
 		b = 1;
 	}
 	return (b);
-}
-int main(void)
-{
-	int r;
-
-	r = _islower('H');
-	putchar(r + '0');
-	r = _islower('o');
-	putchar(r + '0');
-	r = _islower(108);
-	putchar(r + '0');
-	putchar('\n');
-
-return (0);
 }
