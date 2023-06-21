@@ -1,34 +1,28 @@
-#include <stdio.h>
+#include <stdio>
 /**
- * main - call a function the sum of 3 and
- * 5 multiplier b/n 0-1024
- *
- * mul_Sum - compute multiplier of 3 and 5
- * then add them together
- * @n: number the highest digit to compute
+ * main - print the sum of 3 adn 5 multiplier
  * Return: always 0
  */
-int mul_sum(int n)
-{
-int sum = 0;
-int i = 0;
-
-while (i < n)
-	{
-	if (i % 3 || i % 5)
-	{
-	sum = sum + i;
-	}
-	i++;
-	}
-return (sum);
-}
 int main(void)
 {
-	int result;
+	unsigned long int sum3, sum5, sum;
+	int i;
 
-	result = mul_sum(1024);
-	printf("%d", result);
+	sum3 = 0;
+	sum5 = 0;
+	sum = 0;
+
+	for (i = 0; i < 1024; ++i)
+	{
+		if ((i % 3) == 0)
+		{
+			sum3 = sum3 + i;
+		} else if ((i % 5) == 0)
+		{
+			sum5 = sum5 + i;
+		}
+	}
+	sum = sum3 + sum5;
+	printf("%lu\n", sum);
 	return (0);
-
 }
