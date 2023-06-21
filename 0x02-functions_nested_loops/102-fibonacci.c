@@ -25,6 +25,7 @@ int fibonacci(int n)
 		else
 			printf(", ");
 	}
+	return (fib1,fib2);
 }
 int  main(void)
 {
