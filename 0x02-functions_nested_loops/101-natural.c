@@ -34,5 +34,6 @@ int main(void)
 
 	result = mul_sum(1024);
 	printf("%d", result);
+	printf("\n");
 	return (0);
 }
