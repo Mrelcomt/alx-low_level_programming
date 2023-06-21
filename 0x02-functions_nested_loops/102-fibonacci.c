@@ -9,7 +9,7 @@
  *
  * Return: Always 0.
  */
-int fibonacci(int n)
+void fibonacci(int n)
 {
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
@@ -25,7 +25,7 @@ int fibonacci(int n)
 		else
 			printf(", ");
 	}
-	return (fib1,fib2);
+
 }
 int  main(void)
 {
