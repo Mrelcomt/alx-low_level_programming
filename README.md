@@ -1,1 +1,1 @@
-hello world codes on c
+read me for debuging
