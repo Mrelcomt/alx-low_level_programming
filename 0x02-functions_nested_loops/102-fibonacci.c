@@ -14,7 +14,7 @@ int fibonacci(int n)
 	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	for (count = 0; count < 50; count++)
+	for (count = 0; count < n; count++)
 	{
 		sum = fib1 + fib2;
 		printf("%lu", sum);
@@ -28,8 +28,6 @@ int fibonacci(int n)
 }
 int  main(void)
 {
-	int result;
-
-	result = fibonacci(50);
+	fibonacci(50);
 return (0);
 }
