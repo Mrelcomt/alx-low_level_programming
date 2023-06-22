@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Prints first 50 Fibonacci numbers, starting with 1 and 2,
- * separated by a comma followed by a space.
- *
- * fibonacci - is used to compete fibonacci numbers
+ * fibonacci - is used to compete fibonacci
  * @n: accept from main function the ending num
+ * Description: fibonacci is used to add conscuite num
  *
- * Return: Always 0.
+ * Return: there is no returni
  */
 void fibonacci(int n)
 {
@@ -27,6 +25,11 @@ void fibonacci(int n)
 	}
 
 }
+/**
+ * main - check fibonacci
+ * Description: main call the function
+ * Return: always 0
+ */
 int  main(void)
 {
 	fibonacci(50);
