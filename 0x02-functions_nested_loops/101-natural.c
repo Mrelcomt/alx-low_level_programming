@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print the sum of 3 adn 5 multiplier
  * mul_sum - compeet the sum of 3 and 5 multiplier
  * @n: limit of computation
+ * Description: this task is
  * Return: always 0
  */
 int mul_sum(int n)
@@ -28,6 +28,11 @@ int mul_sum(int n)
 	sum = sum3 + sum5;
 	return (sum);
 }
+/**
+ * main - this ti the main
+ * Description: this main used to call function
+ * Return: always 0
+ */
 int main(void)
 {
 	int result;
