@@ -12,7 +12,7 @@ void print_square(int n)
 	int j;
 	int i;
 
-	if (n == 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
