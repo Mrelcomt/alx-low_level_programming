@@ -20,6 +20,7 @@ void fizz_buzz(void)
 		else if (i > 1)
 			printf(" %d", i);
 	}
+	printf("\n");
 
 }
 /**
