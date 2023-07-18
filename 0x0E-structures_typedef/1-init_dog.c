@@ -1,8 +1,7 @@
 #include "dog.h"
 /**
  * init_dog - initialize dog struct
- *
- * d: pased struct
+ * @d: pased struct
  * @name: name of the dog
  * @age: age of the dog
  * @owner: name of owner
