@@ -1,7 +1,7 @@
 #ifndef INV_TREE_H
 #define INV_TREE_H
 /**
- * dog - structure with different attribute
+ * struct dog - structure with different attribute
  * @name: name of the dog
  * @age: age of the dog
  * @owner: whose owne the dog
